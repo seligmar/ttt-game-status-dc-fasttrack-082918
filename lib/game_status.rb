@@ -20,8 +20,9 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     WIN_COMBINATIONS.each do |winning|
-      if board[winning] == 
-        puts "#{winning}"
+      board[winning] == win 
+      if win == TRUE
+        puts "#{win}"
       else 
         return false 
   end
