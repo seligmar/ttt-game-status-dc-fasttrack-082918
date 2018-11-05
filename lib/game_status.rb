@@ -19,8 +19,8 @@ WIN_COMBINATIONS = [
   def won?(board)
     WIN_COMBINATIONS.each do |winning|
       winning = wining_combo
-      if board.include?(winning)
-        puts "#{winning}"
+      if board.include?(wining_combo)
+        puts "#{wining_combo}"
       else 
         return false 
   end
